@@ -23,19 +23,18 @@ function readLine() {
 }
 
 /*
- * Complete the simpleArraySum function below.
+ * author: Luan Eleuterio
  */
 function simpleArraySum(ar) {
     /*
      * Write your code here.
      */
-    var resultado = 0
-    var i = 0
-    var tamanho = ar.length
-    for (i = 0; i <= tamanho ; i++){
-        resultado += ar[i];
+    var sum = 0
+    var len = ar.length
+    for (var i = 0; i < len ; i++){
+        sum += ar[i];
     }
-    return resultado
+    return sum
 }
 
 function main() {
