@@ -31,7 +31,6 @@ function plusMinus(arr) {
     var pos = 0, neg = 0, zero = 0
     var plusArray = []
 
-
     for (var i = 0; i < len; i++) {
         if (arr[i] > 0) {
             pos++
